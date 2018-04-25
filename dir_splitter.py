@@ -5,7 +5,7 @@ from shutil import move
 
 # TODO: make optional whether we put archive in subdirs, or archive at top level directory
 
-DATA_DIRECTORY = r'test\resources'
+DATA_DIRECTORY = Path("test/resources")
 
 PROCESSED_COMPRESSED_EXT = '.jpg'
 RAW_EXT = '.dng'
